@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/miEstilo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/Componentes.js" type="text/javascript"></script>
+  <link rel="icon" href="img/LogoSFGC.png" type="image/png" sizes="50x50">
+  <title>Acerca de mi</title>
+</head>
+
+<body class="container-fluid">
+  <!-- Menu desplegable -->
+  <header>
+    <nav>
+      <div id="menuComponent">
+        <script>menu();</script>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Parte principal (Main) del documento -->
+  <main class="container">
+    <br>
+    <section class="row">
+      <!--Informacion personal-->
+      <article class="col-md-9">
+        <img class="img-fluid mx-auto d-block" src="img/Foto_perfil.jpg" alt="foto de perfil" width="300" height="200">
+        <h2 class="text-center">Sebastian Garzon</h2>
+        <hr>
+        <p>Estudiante de desarrollo de Software y aplicativos móviles del Politécnico Internacional, actualmente
+          cursando noveno ciclo (Trimestre), por tener el mejor promedio en los trimestres anteriores ha obtenido
+          becas académicas. Tiene conocimientos en programación web (Html, Css) y framework bootstrap,
+          programación en Java, C#, desarrollo de servicios básicos Spring Boot, manejo de base de datos
+          (MySQL, SQL Server, Oracle), desarrollo de aplicaciones móviles con Ionic, uso de herramientas de
+          ofimática y mantenimiento de equipos de cómputo, manejo de inglés básico. Presenta interés
+          ocupacional por el desarrollo de páginas web, programación en lenguaje java, C#. Persona con
+          capacidad de resolución de problemas, creatividad y responsable, cumplido, con buena capacidad de
+          comunicación.</p>
+      </article>
+
+      <!--Redes sociales-->
+      <article class="text-center col-md-3">
+        <p><b>REDES SOCIALES</b></p>
+        <a href="https://www.instagram.com/sebas_racrag/" target="_blank"><img src="img/ins.png" height="50px"
+            width="50px" />Instagram</a><br>
+        <a href="https://www.facebook.com/profile.php?id=100035645201775" target="_blank"><img src="img/fb.png"
+            height="50px" width="50px" />Facebook</a><br>
+        <a href="https://api.whatsapp.com/send?phone=573228623317&text=" target="_blank"><img src="img/wa.png"
+            height="50px" width="50px" />WhatsApp</a><br>
+        <a href="https://www.youtube.com/channel/UC2l5lWbPD5Knl6o9jADAQBg" target="_blank"><img src="img/yt.png"
+            height="50px" width="50px" />Youtube</a>
+        <br><br>
+        <!-- Boton Hoja de vida -->
+        <article class="row">
+          <div class="col-md-12 col-xs-12 text-center center-block">
+            <button type="button" class="btn btn-primary">
+              <a href="docs/Hoja de Vida Sebastian - Software.pdf" class="enlaces" target="_blank">Ver Curriculum
+                Vitae</a>
+            </button>
+          </div>
+          <div class="col-md-12 col-xs-6 text-center center-block">
+            <br>
+          </div>
+          <div class="col-md-12 col-xs-6 text-center center-block">
+            <button type="button" class="btn btn-primary">
+              <a href="docs/Hoja de Vida Sebastian - Software.pdf" class="enlaces" target="_blank"
+                download="Curriculum-Sebastian">Descargar Curriculum Vitae</a>
+            </button>
+          </div>
+        </article>
+      </article>
+    </section>
+  </main>
+
+
+  <!-- Pie de pagina -->
+  <footer>
+    <div id="pieDePaginaComponent"></div>
+    <script>pieDePagina();</script>
+  </footer>
+
+</body>
+
+</html>

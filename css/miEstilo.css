@@ -1,0 +1,18 @@
+.footer {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a.enlaces{
+    font-size: 100%;
+    color: aliceblue;
+}
+
+a:hover.enlaces{
+    font-size: 110%;
+    color: rgb(0, 225, 255);
+}
